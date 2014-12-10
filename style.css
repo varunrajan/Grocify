@@ -1,0 +1,101 @@
+body{
+	background-color: #4C8767;
+}
+h1{
+	font-size: 48px;
+	text-align: center;
+	color: white;
+}
+
+.app {
+	border: 5px solid;
+	border-radius: 10px;
+
+	min-width: 360px;
+	max-width: 650px;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+}
+
+#top-app {
+
+	background-color: #E7B8FF;
+
+}
+
+#top-app, #total-row {
+	text-align: center;
+	margin: auto;
+	min-width: 50%;
+}
+
+#top-app td, #total-row td{
+	
+	margin: 20px;
+	padding: 10px;
+
+}
+
+
+
+.item-column{
+	width: 45%;
+
+}
+
+.item-column input{
+	width: 90%;
+}
+
+.pq-column{
+	width: 20%;
+}
+
+.pq-column input{
+	width: 40%;
+}
+
+.subtotal-column, .subtotal, .total {
+	width: 10%;
+}
+
+
+.delete{
+	width: 5%;
+	background-image: none;
+	background-size: 100%;
+}
+
+.delete-option{
+
+	width: 5%;
+	background-image: url('images/trash-can.png');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	
+
+}
+
+.new {
+
+	background-color:#9DA4FF;
+	border-radius: 100px;
+	border: 1px solid black;
+
+}
+
+.completed{
+	background-color: #FF726A;
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+/*{
+
+	outline: 1px red solid;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grocify</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<script src ="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div id="title"><h1>GROCIFY</h1></div>
+		<div class="app">
+
+		
+				
+				<table id="top-app">
+					<form>
+					<tr>
+							<td class="delete"></td>
+							<td class="item-column">
+							<label for="Items">Items</label></td>
+							<td class="pq-column"><label for="Price">Price</label></td>
+							<td class="pq-column"><label for="Quantity">Quantity</label></br>
+							<td class="subtotal-column">Subtotal</td>
+					</tr>
+					</form>
+					<tr>
+							<td class="delete"></td>
+							<td class="item-column">
+		 					<input type="text" id="Items"></td>
+		 					<td class="pq-column">
+							$<input type="number" id="Price"></td>
+							<td class="pq-column">
+							<input type="number" id="Quantity"></td>
+							<td class="subtotal-column">
+							<button id="add-button">Add</td>
+					</tr>
+					<tr>
+						<td class="delete">Total</td>
+						<td class="item-column"></td>
+						<td class="pq-column"></td>
+						<td class="pq-column"></td>
+						<td class="total"></td>
+					</tr>
+				</table>
+
+
+
+		</div>
+
+	</div>
+</body>
+</html>
